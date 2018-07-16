@@ -14,7 +14,7 @@ import autoit, time
 class ShellTest(unittest.TestCase):
 
     def test_login_BE(self):
-        self.path = r'C:\Luban PDS\Luban Explorer\shell\PDSShell.exe'
+        self.path = r'D:\Luban PDS\Luban Explorer\shell\PDSShell.exe'
         self.username = 'cynthia'
         self.password = 'd76bf909a7646e788a1fcbdefb0ddfe1'
         self.ip = 'pds.lubansoft.com'
